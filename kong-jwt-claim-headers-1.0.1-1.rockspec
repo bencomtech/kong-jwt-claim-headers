@@ -1,8 +1,8 @@
 package = "kong-jwt-claim-headers"
-version = "1.0.0-1"
+version = "1.0.1-1"
 source = {
   url = "git://github.com/bencomtech/kong-jwt-claim-headers",
-  tag = "v1.0.0"
+  tag = "v1.0.1"
 }
 description = {
   summary = "A Kong plugin to map JWT claims to request headers ",
