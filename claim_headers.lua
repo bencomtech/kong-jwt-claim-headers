@@ -1,7 +1,10 @@
 -- Maps claim keys to request headers
 return {
-  ["aid"] = "X-Consumer-AID",
-  ["uid"] = "X-Consumer-Token-User-Id",
-  ["sub"] = "X-Consumer-Token-User-Email",
-  ["aud"] = "X-Consumer-Token-Scopes"
+  ["sub"] = "X-User-ID",
+  ["preferred_username"] = "X-Username",
+  ["name"] = "X-Display-Name",
+  ["given_name"] = "X-First-Name",
+  ["family_name"] = "X-Last-Name",
+  ["email"] = "X-Email",
+  ["email_verified"] = "X-Email-Verified"
 }
