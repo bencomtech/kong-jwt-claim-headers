@@ -6,5 +6,7 @@ return {
   ["given_name"] = "X-First-Name",
   ["family_name"] = "X-Last-Name",
   ["email"] = "X-Email",
-  ["email_verified"] = "X-Email-Verified"
+  ["email_verified"] = "X-Email-Verified",
+  ["roles"] = "X-Roles",
+  ["groups"] = "X-Groups"
 }
