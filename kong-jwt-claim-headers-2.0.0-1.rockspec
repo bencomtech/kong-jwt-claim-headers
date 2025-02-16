@@ -1,13 +1,13 @@
 package = "kong-jwt-claim-headers"
-version = "2.0.0-1"
+version = "2.0.0"
 source = {
-  url = "git://github.com/wego/kong-jwt-claim-headers",
+  url = "git://github.com/bencomtech/kong-jwt-claim-headers",
   tag = "v2.0.0"
 }
 description = {
   summary = "A Kong plugin to map JWT claims to request headers ",
   license = "MIT",
-  homepage = "https://geeks.wego.com"
+  homepage = "https://pichid.com"
 }
 dependencies = {
   "lua ~> 5.1",
